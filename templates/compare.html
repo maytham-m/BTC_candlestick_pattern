@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Bitcoin Candlestick Pattern Comparison</title>
+</head>
+<body>
+    <h1>Bitcoin Candlestick Pattern Comparison</h1>
+    {% for plot in plots %}
+        <div>
+            {{ plot|safe }}
+        </div>
+    {% endfor %}
+</body>
+</html>
