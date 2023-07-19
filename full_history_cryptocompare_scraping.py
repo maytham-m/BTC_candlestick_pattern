@@ -5,7 +5,7 @@ import pandas as pd
 from datetime import datetime
 
 # Replace with your CryptoCompare API key
-api_key = 'd9fbcc2400d429a56d763827edfce893853890d5c83cf86c0cf4601872aefb6e'
+api_key = '***'
 
 def fetch_daily_data(symbol):
     url = f'https://min-api.cryptocompare.com/data/v2/histoday?fsym={symbol}&tsym=USD&allData=true&api_key={api_key}'
